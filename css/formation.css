@@ -1,0 +1,202 @@
+@CHARSET "ISO-8859-1";
+
+
+.container{
+	margin-top : 15px;
+	width : 85%;
+}
+
+/*    ------NAV-----  */ 
+
+.brand-logo{
+	margin-left : 10px;
+}
+
+nav{
+	
+	background-color : white;
+	border : none;
+	box-shadow : none;
+}
+
+nav ul a, .nav-wrapper a{
+	
+	color : black;
+}
+
+nav ul a:hover{
+	background-color : white;
+	color : #82b1ff;
+}
+
+nav ul li.active{
+	background-color: white;
+}
+
+nav ul li.active a{
+	color: #82b1ff;
+}
+
+.mes_credits{
+	color: black;
+	margin-right : 50px;
+}
+
+/* ------ ERREUR ------ */
+
+.erreurDiv{
+	height : 100px;
+}
+
+.erreur{
+	color :#ef5350;
+}
+
+.infos{
+	color : green;
+}
+
+/* ------ BODY ------- */
+
+h1{
+	font-size : 2em;
+}
+
+.page_perso{
+margin-top : 60px;
+border : 1px solid black;
+max-height : 450px;
+}
+
+.page_perso_chef{
+margin-top : 60px;
+border : 1px solid black;
+height : 500px;
+display: flex;
+flex-direction: column;
+}
+
+.card{
+	border : none;
+	box-shadow: none;
+}
+
+.card .card-action{
+	border-top: none;
+}
+.page_perso_chef .card-content{
+	flex: 1;
+}
+
+.card-content{
+text-align : center;	
+}
+
+.page_perso_chef img{
+height : 200px;
+}
+
+.page_perso img{
+height : 200px;
+}
+
+.card-action {
+	text-align : center;
+}
+
+.formation_container{
+	display : flex;
+	flex-direction : column;
+	
+}
+table{
+	border : 1px solid black;
+	width : 50%;
+	margin : auto;
+	margin-bottom : 50px;
+	
+}
+
+td{
+	border : 1px solid black;
+	text-align : center;
+}
+
+.tableau_container{
+	display: flex;
+}
+
+.mes_formations_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.formations_validee{
+	background-color: blue;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.formations_en_attente{
+	background-color: green;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.etat_validee{
+	background-color:#009688;
+	padding : 20px;
+	border-radius : 20%;
+	margin-right: 20px;
+}
+
+.etat_attente{
+	background-color:#ffa726;
+	padding : 20px;
+	border-radius : 20%;
+	margin-right: 20px;
+}
+
+.etat_refusee{
+	background-color:#b71c1c;
+	padding : 20px;
+	border-radius : 20%;
+	margin-right: 20px;
+}
+
+.evaluation{
+	color:black;
+	background-color: #2196f3;
+	padding: 20px;
+	border-radius: 20%;
+}
+
+.evaluation_page{
+	width: 80%;
+	margin:auto;
+}
+
+.icones_admin{
+	text-align: center;
+}
+
+.icones_admin i{
+	cursor: pointer;
+}
+
+.icones_admin i:hover{
+	color: #82b1ff;
+}
+
+.formulaire_container{
+	width: 70%;
+	margin:auto;
+}
+
+/******* ajouter_membre *********/ 
+
+
+
